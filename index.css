@@ -1,3 +1,5 @@
+@import "index.html"
+
 html {
     margin: 0;
     padding: 0;
@@ -10,11 +12,13 @@ body {
     margin: 0;
     padding: 0;
 }
-<<<<<<< HEAD:style.css
-
 p{
     margin-top: 0;
     padding: 0;
 }
-=======
->>>>>>> ed4983ba2cac4304353f154615b2a0ac0c09d509:index.css
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
