@@ -1,3 +1,20 @@
-<html>
-    <h1>olá!</h1>
-</html>
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 80% roboto, sans-serif;
+    line-height: 1.888889;
+    color: #535756
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+<<<<<<< HEAD:style.css
+
+p{
+    margin-top: 0;
+    padding: 0;
+}
+=======
+>>>>>>> ed4983ba2cac4304353f154615b2a0ac0c09d509:index.css
