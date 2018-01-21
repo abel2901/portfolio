@@ -19,6 +19,7 @@ ul{
 	overflow: hidden;
 	background-color: #333
 }
+<<<<<<< HEAD
 
 li {
 	float: left
@@ -35,3 +36,29 @@ li a{
 li a:hover {
 	background-color: #111;
 }
+=======
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+}
+h2 {
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #7D775C;
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;    
+}
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+}
+.
+>>>>>>> c5750d76845888efeaf356b0fa8ff66579ca1f3d
