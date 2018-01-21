@@ -8,29 +8,30 @@ body {
     font: 80% roboto, sans-serif;
     line-height: 1.888889;
     color: #535756
-    background: #fff;
+    background: #ffffffff;
     margin: 0;
     padding: 0;
 }
-p {
-    margin-top: 0;
-    text-align: justify;
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333
 }
-h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
-	}
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
-    }
-.sidebar {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
+
+li {
+	float: left
 }
-.
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
