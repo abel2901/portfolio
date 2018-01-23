@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-     <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Portfolio de projetos</title>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
     <meta charset="utf-8" />
 
 </head>
-
 <body>
-   <!--create navBar-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <!--create navBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">About</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">About</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-      </nav>   
-<!--Create a slide show -->
+    </nav>
+
+    <!-- create a new container-->
+    <div class="background-1">
+    <div class="container text-center">
+            <h3>That's me</h3>
+            <img src="images/sistemaBraile.jpg" class="img-circle" alt="Profile"  width="350" height="350">
+            <h2>et</h2>
+        </div>
+    </div>
+
+    <!--Create a slide show -->
     <section>
         <img class="myWorks" src="images/sistemaBraile.jpg" style="width:100%">
         <img class="myWorks" src="images/Connepi.jpg" style="width:100%">
@@ -47,17 +58,20 @@
     <div class="container">
         <h2 class="content-size">My works</h2>
     </div>
-        <p>
-            <em>Love make new things</em>
-        </p>
-        <p>Creating a website to show my new works</p>
-        <!-- Contact me -->
+    <p>
+        <em>Love make new things</em>
+    </p>
+    <p>Creating a website to show my new works</p>
+    <!-- Contact me -->
     <div class="contact-container" style="max-width:800px" id="contact">
         <h2>CONTACT</h2>
         <div class="show-contact">
-            <i class="fa fa-map-marker" style="width:30px"></i>Brasília, DF<br>
-            <i class="fa fa-phone" style="width:30px"></i>+61 99999999<br>
-            <i class="fa fa-envelope" style="width:30px"></i> Email: abel2901@gmail.com<br>
+            <i class="fa fa-map-marker" style="width:30px"></i>Brasília, DF
+            <br>
+            <i class="fa fa-phone" style="width:30px"></i>+61 99999999
+            <br>
+            <i class="fa fa-envelope" style="width:30px"></i> Email: abel2901@gmail.com
+            <br>
         </div>
     </div>
 </body>
