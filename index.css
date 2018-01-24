@@ -26,3 +26,12 @@ body {
 .material-icons.md-75 {
 	font-size: 75px;
 }
+.parallax-container{
+	background-image: url("images/laptop_theme.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	
+}
